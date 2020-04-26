@@ -1,19 +1,16 @@
 package com.gamedia.gamedia.controller;
 
 import com.gamedia.gamedia.dto.ExchangeDTO;
-import com.gamedia.gamedia.dto.ResponseExchangeDTO;
 import com.gamedia.gamedia.exceptions.ConvertException;
 import com.gamedia.gamedia.exceptions.CreateDtoException;
 import com.gamedia.gamedia.service.ExchangeCryptoService;
 import com.gamedia.gamedia.service.QuoteCryptoService;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.text.MessageFormat;
-import java.util.Map;
 
 @RestController
 @Log4j2

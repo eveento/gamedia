@@ -3,7 +3,6 @@ package com.gamedia.gamedia.service;
 import com.gamedia.gamedia.dto.CurrencyDTO;
 import com.gamedia.gamedia.dto.ExchangeDTO;
 import com.gamedia.gamedia.dto.ResponseExchangeDTO;
-import com.gamedia.gamedia.exceptions.ConvertException;
 import com.gamedia.gamedia.exceptions.CreateDtoException;
 import com.gamedia.gamedia.interfaces.DataConverter;
 import com.gamedia.gamedia.utils.HttpUtil;
@@ -13,7 +12,6 @@ import org.springframework.http.HttpMethod;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.HashMap;
